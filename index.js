@@ -10,6 +10,7 @@ exports.get = function(event, context, callback) {
     body: contents.toString(),
     headers: {'content-type': 'text/html'}
   };
+  console.log("hello world");
 
   callback(null, result);
 };
